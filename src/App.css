@@ -1,0 +1,101 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.container {
+    max-width: 600px;
+    margin:  auto;
+    padding: 20px;
+    background-color: #101622;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  h1 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin: 15px;
+  }
+  .discussion{
+    margin-top: 40px;
+  }
+  .discussion h2 {
+    font-size: 18px;
+    margin: 15px;
+  }
+  .input-field {
+    margin-bottom: 20px;
+  }
+  input, textarea {
+    width: 90%;
+    padding: 10px;
+    border: 2px solid #2f3846;
+    border-radius: 10px;
+    background-color: #1b232f;
+    margin: 0 5px;
+    color: white;
+  }
+  input{
+    height: 20px;
+  }
+  textarea{
+    height: 100px;
+  }
+  button[type="submit"] {
+    background-color: #1942d4;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  img{
+    height: 25px;
+    width: 25px;
+  }
+  .comment-list {
+    list-style: none;
+    padding: 0;
+    margin: 25px 5px 5px 5px;
+  }
+  .comment {
+    padding: 20px;
+  }
+  .comment-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .comment-header i {
+    font-size: 20px;
+  }
+  .comment-name {
+    font-weight: bold;
+  }
+  .comment-date {
+    font-size: 12px;
+    color: #666;
+  }
+  .comment-text {
+    color: #666;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+  }
+  .remove-section{
+    display: flex;
+    align-items: center;
+    gap: 1px;
+  }
+  .remove-button{
+    text-decoration: none;
+    color: #666;
+    padding: 5px 5px;
+    font-size: 11px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  .remove-button:hover{
+    text-decoration: underline;
+  }
+
